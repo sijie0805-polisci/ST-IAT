@@ -17,8 +17,6 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 	    	{word: 'Black', css: {'font-size': '9em'}}, 
 	    	{word: 'people', css: {'font-size': '2em'}}
 		    ],  
-		    //Stimulus css (style)
-		    css : {color:'#31b404','font-size':'3em'}
 		  },	
 
   		attribute1 : 
