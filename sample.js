@@ -9,14 +9,14 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 		      css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
-		    media : [ //Stimuli content as PIP's media objects
-    		    	{word : 'Black people'}, 
-    			{word : 'Black people'}, 
-    			{word : 'Black people'}, 
-    			{word : 'Black people'}, 
-    			{word : 'Black people'}, 
-    			{word : 'Black people'}
-		    ], 
+		    media : [ // Stimuli content as PIP's media objects with different sizes for each word.
+	    	{word: 'Black', css: {'font-size': '2em'}}, 
+	    	{word: 'people', css: {'font-size': '3em'}}, 
+	    	{word: 'Black', css: {'font-size': '2.5em'}}, 
+	    	{word: 'people', css: {'font-size': '3.5em'}}, 
+	    	{word: 'Black', css: {'font-size': '1.5em'}}, 
+	    	{word: 'people', css: {'font-size': '2em'}}
+		    ],  
 		    //Stimulus css (style)
 		    css : {color:'#31b404','font-size':'3em'}
 		  },	
