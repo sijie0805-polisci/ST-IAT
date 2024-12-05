@@ -60,7 +60,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 			},
 
   base_url : {//Where are your images at?
-    image : 'https://github.com/sijie0805-polisci/ST-IAT'
+    image : 'https://github.com/sijie0805-polisci/ST-IAT/blob/main/'
   }}
   );
   });
