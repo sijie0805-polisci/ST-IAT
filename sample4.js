@@ -9,20 +9,20 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 		      css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
-		    media : [ // Stimuli content as PIP's media objects with different sizes for each word.
-	    	{word: 'China'}, 
-	    	{word: 'China'}, 
-	    	{word: 'China'}, 
-	    	{word: 'China'}, 
-	    	{word: 'China'}, 
-	    	{word: 'China'}
-		    ],  
-		 //Stimulus css (style)
-		css : {color:'#31b404','font-size':'3em'}
+		    media : [ //Stimuli content as PIP's media objects
+    		    	{image : 'china1.jpg'}, 
+    			{image : 'china2.jpg'}, 
+    			{image : 'china3.jpg'}, 
+    			{image : 'china4.jpg'}, 
+    			{image : 'china5.jpg'}, 
+    			{image : 'china6.jpg'}
+		    ], 
+		    //Stimulus css (style)
+		    css : {color:'#31b404','font-size':'3em'}
 		  },	
       	          attribute1 : 
 			{
-			name : 'Unpleasant', //Attribute label
+			name : 'Negative', //Attribute label
 			title : {
 				media : {word : 'Negative'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
@@ -41,7 +41,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 			},
 		attribute2 : 
 			{
-			name : 'Pleasant', //Attribute label
+			name : 'Positive', //Attribute label
 			title : {
 				media : {word : 'Positive'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
