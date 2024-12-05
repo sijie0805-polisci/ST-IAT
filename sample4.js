@@ -3,19 +3,19 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 	var API = new APIConstructor();
 		  return stiatExtension({
 		  category : { 
-		    name : 'Black people', //Will appear in the data.
+		    name : 'China', //Will appear in the data.
 		    title : {
-		      media : {word : 'Black people'}, //Name of the category presented in the task.
+		      media : {word : 'China'}, //Name of the category presented in the task.
 		      css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
 		    media : [ // Stimuli content as PIP's media objects with different sizes for each word.
-	    	{word: 'China', css: {'font-family': 'Arial'}}, 
-	    	{word: 'China', css: {'font-family': 'Times New Roman''}}, 
-	    	{word: 'China', css: {'font-family': 'Courier New'}}, 
-	    	{word: 'China', css: {'font-family': 'Georgia'}}, 
-	    	{word: 'China', css: {'font-family': 'Verdana'}}, 
-	    	{word: 'China', css: {'font-family': 'Tahoma'}}
+	    	{word: 'China'}, 
+	    	{word: 'China'}, 
+	    	{word: 'China'}, 
+	    	{word: 'China'}, 
+	    	{word: 'China'}, 
+	    	{word: 'China'}
 		    ],  
 		 //Stimulus css (style)
 		css : {color:'#31b404','font-size':'3em'}
