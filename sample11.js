@@ -10,12 +10,12 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
 		    media : [ //Stimuli content as PIP's media objects
-			{word : 'china'}, 
-    			{word : 'china'}, 
-    			{word : 'china'}, 
-    			{word : 'china'}, 
-    			{word : 'china'}, 
-    			{word : 'china'}
+			{image : 'China1.jpg'}, 
+    			{image : 'China2.jpg'}, 
+    			{image : 'China3.jpg'}, 
+    			{image : 'China4.jpg'}, 
+    			{image : 'China5.jpg'}, 
+    			{image : 'China6.jpg'}
 		    ], 
 		    //Stimulus css (style)
 		    css : {color:'#31b404','font-size':'3em'}
@@ -60,7 +60,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 			},
 
   base_url : {//Where are your images at?
-    image : 'https://cdn.jsdelivr.net/gh/sijie0805-polisci/ST-IAT@main/'
+    image : 'https://raw.githubusercontent.com/sijie0805-polisci/ST-IAT/refs/heads/main/'
   }}
   );
   });
