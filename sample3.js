@@ -10,16 +10,17 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
 		    media : [ // Stimuli content as PIP's media objects with different sizes for each word.
-	    	{word: 'Black', css: {'font-size': '10em'}}, 
-	    	{word: 'people', css: {'font-size': '1em'}}, 
-	    	{word: 'Black', css: {'font-size': '5em'}}, 
-	    	{word: 'people', css: {'font-size': '20em'}}, 
-	    	{word: 'Black', css: {'font-size': '9em'}}, 
-	    	{word: 'people', css: {'font-size': '2em'}}
+	    	{word: 'China', css: {'font-family': 'Arial'}}, 
+	    	{word: 'China', css: {'font-family': 'Times New Roman''}}, 
+	    	{word: 'China', css: {'font-family': 'Courier New'}}, 
+	    	{word: 'China', css: {'font-family': 'Georgia'}}, 
+	    	{word: 'China', css: {'font-family': 'Verdana'}}, 
+	    	{word: 'China', css: {'font-family': 'Tahoma'}}
 		    ],  
+		 //Stimulus css (style)
+		css : {color:'#31b404','font-size':'3em'}
 		  },	
-
-  		attribute1 : 
+      	          attribute1 : 
 			{
 			name : 'Unpleasant', //Attribute label
 			title : {
